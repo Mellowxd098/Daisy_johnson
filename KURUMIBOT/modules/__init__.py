@@ -1,4 +1,4 @@
-from DAISY_JOHNSON_BOT import LOAD, LOGGER, NO_LOAD
+from KURUMIBOT import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():

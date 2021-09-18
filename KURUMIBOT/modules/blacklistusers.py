@@ -1,12 +1,12 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import DAISY_JOHNSON_BOT.modules.sql.blacklistusers_sql as sql
-from DAISY_JOHNSON_BOT import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+import KURUMIBOT.modules.sql.blacklistusers_sql as sql
+from KURUMIBOT import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           dispatcher)
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import dev_plus
-from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import (extract_user,
+from KURUMIBOT.modules.helper_funcs.chat_status import dev_plus
+from KURUMIBOT.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from DAISY_JOHNSON_BOT.modules.log_channel import gloggable
+from KURUMIBOT.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async

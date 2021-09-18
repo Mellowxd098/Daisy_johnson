@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from DAISY_JOHNSON_BOT.modules.helper_funcs.msg_types import Types
-from DAISY_JOHNSON_BOT.modules.sql import BASE, SESSION
+from KURUMIBOT.modules.helper_funcs.msg_types import Types
+from KURUMIBOT.modules.sql import BASE, SESSION
 from sqlalchemy import (BigInteger, Boolean, Column, Integer, String,
                         UnicodeText)
 

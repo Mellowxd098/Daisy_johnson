@@ -1,7 +1,7 @@
 import threading
 
-from DAISY_JOHNSON_BOT import dispatcher
-from DAISY_JOHNSON_BOT.modules.sql import BASE, SESSION
+from KURUMIBOT import dispatcher
+from KURUMIBOT.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 

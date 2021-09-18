@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from DAISY_JOHNSON_BOT import dispatcher, LOGGER, DRAGONS
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
-from DAISY_JOHNSON_BOT.modules.helper_funcs.handlers import MessageHandlerChecker
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_text
-from DAISY_JOHNSON_BOT.modules.helper_funcs.filters import CustomFilters
-from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import build_keyboard_parser
-from DAISY_JOHNSON_BOT.modules.helper_funcs.msg_types import get_filter_type
-from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import (
+from KURUMIBOT import dispatcher, LOGGER, DRAGONS
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT.modules.helper_funcs.handlers import MessageHandlerChecker
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+from KURUMIBOT.modules.helper_funcs.extraction import extract_text
+from KURUMIBOT.modules.helper_funcs.filters import CustomFilters
+from KURUMIBOT.modules.helper_funcs.misc import build_keyboard_parser
+from KURUMIBOT.modules.helper_funcs.msg_types import get_filter_type
+from KURUMIBOT.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from DAISY_JOHNSON_BOT.modules.sql import cust_filters_sql as sql
+from KURUMIBOT.modules.sql import cust_filters_sql as sql
 
-from DAISY_JOHNSON_BOT.modules.connection import connected
+from KURUMIBOT.modules.connection import connected
 
-from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message, typing_action
+from KURUMIBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 

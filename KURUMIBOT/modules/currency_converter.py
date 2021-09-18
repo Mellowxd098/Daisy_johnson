@@ -1,5 +1,5 @@
 import requests
-from DAISY_JOHNSON_BOT import CASH_API_KEY, dispatcher
+from KURUMIBOT import CASH_API_KEY, dispatcher
 from telegram import Update, ParseMode
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

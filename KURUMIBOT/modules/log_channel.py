@@ -3,7 +3,7 @@ from functools import wraps
 
 from telegram.ext import CallbackContext
 
-from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import is_module_loaded
+from KURUMIBOT.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from DAISY_JOHNSON_BOT import EVENT_LOGS, LOGGER, dispatcher
-    from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-    from DAISY_JOHNSON_BOT.modules.sql import log_channel_sql as sql
+    from KURUMIBOT import EVENT_LOGS, LOGGER, dispatcher
+    from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+    from KURUMIBOT.modules.sql import log_channel_sql as sql
 
     def loggable(func):
 

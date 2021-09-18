@@ -1,7 +1,7 @@
 import subprocess
 
-from DAISY_JOHNSON_BOT import LOGGER, dispatcher
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import dev_plus
+from KURUMIBOT import LOGGER, dispatcher
+from KURUMIBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async

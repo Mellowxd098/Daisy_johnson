@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop DAISY_JOHNSON_BOT
-net start DAISY_JOHNSON_BOT
+net stop KURUMIBOT
+net start KURUMIBOT

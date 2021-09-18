@@ -1,6 +1,6 @@
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
-from DAISY_JOHNSON_BOT import dispatcher
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update

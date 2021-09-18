@@ -1,3 +1,3 @@
-worker: python3 -m DAISY_JOHNSON_BOT
-web: python3 -m DAISY_JOHNSON_BOT
+worker: python3 -m KURUMIBOT
+web: python3 -m KURUMIBOT
 ps:scale worker=1

@@ -1,6 +1,6 @@
-import DAISY_JOHNSON_BOT.modules.sql.blacklistusers_sql as sql
-from DAISY_JOHNSON_BOT import ALLOW_EXCL
-from DAISY_JOHNSON_BOT import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
+import KURUMIBOT.modules.sql.blacklistusers_sql as sql
+from KURUMIBOT import ALLOW_EXCL
+from KURUMIBOT import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters

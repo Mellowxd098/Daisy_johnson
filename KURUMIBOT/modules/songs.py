@@ -13,8 +13,8 @@ from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
 from telethon import events
 
-from DAISY_JOHNSON_BOT.events import register
-from DAISY_JOHNSON_BOT.utils import progress
+from KURUMIBOT.events import register
+from KURUMIBOT.utils import progress
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from validators.url import url

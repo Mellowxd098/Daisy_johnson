@@ -2,14 +2,14 @@ import html
 # AI module using Intellivoid's Coffeehouse API by @TheRealPhoenix
 from time import sleep, time
 
-import DAISY_JOHNSON_BOT.modules.sql.chatbot_sql as sql
+import KURUMIBOT.modules.sql.chatbot_sql as sql
 from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
-from DAISY_JOHNSON_BOT import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-from DAISY_JOHNSON_BOT.modules.helper_funcs.filters import CustomFilters
-from DAISY_JOHNSON_BOT.modules.log_channel import gloggable
+from KURUMIBOT import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+from KURUMIBOT.modules.helper_funcs.filters import CustomFilters
+from KURUMIBOT.modules.log_channel import gloggable
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import (CallbackContext, CommandHandler, Filters,

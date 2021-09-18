@@ -1,4 +1,4 @@
-from DAISY_JOHNSON_BOT import telethn as tbot
+from KURUMIBOT import telethn as tbot
 import io
 import os
 import time
@@ -9,9 +9,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from DAISY_JOHNSON_BOT import *
+from KURUMIBOT import *
 
-from DAISY_JOHNSON_BOT.events import register
+from KURUMIBOT.events import register
 
 
 async def is_register_admin(chat, user):

@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText, Integer
 
-from DAISY_JOHNSON_BOT.modules.sql import SESSION, BASE
+from KURUMIBOT.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):

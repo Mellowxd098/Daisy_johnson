@@ -2,9 +2,9 @@ import html
 import re
 
 from feedparser import parse
-from DAISY_JOHNSON_BOT import dispatcher, updater
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-from DAISY_JOHNSON_BOT.modules.sql import rss_sql as sql
+from KURUMIBOT import dispatcher, updater
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+from KURUMIBOT.modules.sql import rss_sql as sql
 from telegram import ParseMode, Update, constants
 from telegram.ext import CallbackContext, CommandHandler
 

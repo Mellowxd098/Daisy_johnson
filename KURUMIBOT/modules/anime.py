@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from DAISY_JOHNSON_BOT import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async

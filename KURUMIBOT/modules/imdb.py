@@ -1,8 +1,8 @@
 import bs4
 import requests
 import re
-from DAISY_JOHNSON_BOT.events import register
-from DAISY_JOHNSON_BOT import telethn
+from KURUMIBOT.events import register
+from KURUMIBOT import telethn
 from telethon import types
 from telethon.tl import functions
 

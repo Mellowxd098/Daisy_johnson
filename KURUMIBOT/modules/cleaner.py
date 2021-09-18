@@ -1,11 +1,11 @@
 import html
 
-from DAISY_JOHNSON_BOT import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (bot_can_delete,
+from KURUMIBOT import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT.modules.helper_funcs.chat_status import (bot_can_delete,
                                                            connection_status,
                                                            dev_plus, user_admin)
-from DAISY_JOHNSON_BOT.modules.sql import cleaner_sql as sql
+from KURUMIBOT.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)

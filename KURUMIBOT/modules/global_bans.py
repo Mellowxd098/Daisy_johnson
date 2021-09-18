@@ -9,17 +9,17 @@ from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
 from telegram.utils.helpers import mention_html
 
-import DAISY_JOHNSON_BOT.modules.sql.global_bans_sql as sql
-from DAISY_JOHNSON_BOT.modules.sql.users_sql import get_user_com_chats
-from DAISY_JOHNSON_BOT import (DEV_USERS, EVENT_LOGS, OWNER_ID, STRICT_GBAN, DRAGONS,
+import KURUMIBOT.modules.sql.global_bans_sql as sql
+from KURUMIBOT.modules.sql.users_sql import get_user_com_chats
+from KURUMIBOT import (DEV_USERS, EVENT_LOGS, OWNER_ID, STRICT_GBAN, DRAGONS,
                           SUPPORT_CHAT, SPAMWATCH_SUPPORT_CHAT, DEMONS, TIGERS,
                           WOLVES, sw, dispatcher)
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (is_user_admin,
+from KURUMIBOT.modules.helper_funcs.chat_status import (is_user_admin,
                                                            support_plus,
                                                            user_admin)
-from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import (extract_user,
+from KURUMIBOT.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import send_to_list
+from KURUMIBOT.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 

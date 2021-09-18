@@ -1,9 +1,9 @@
 from typing import Optional
 
-import DAISY_JOHNSON_BOT.modules.sql.rules_sql as sql
-from DAISY_JOHNSON_BOT import dispatcher
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
-from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import markdown_parser
+import KURUMIBOT.modules.sql.rules_sql as sql
+from KURUMIBOT import dispatcher
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
+from KURUMIBOT.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, Message,
                       ParseMode, Update, User)
 from telegram.error import BadRequest

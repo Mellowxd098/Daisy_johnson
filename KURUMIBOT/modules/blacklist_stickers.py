@@ -1,18 +1,18 @@
 import html
 from typing import Optional
 
-import DAISY_JOHNSON_BOT.modules.sql.blsticker_sql as sql
-from DAISY_JOHNSON_BOT import LOGGER, dispatcher
-from DAISY_JOHNSON_BOT.modules.connection import connected
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
-from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (user_admin,
+import KURUMIBOT.modules.sql.blsticker_sql as sql
+from KURUMIBOT import LOGGER, dispatcher
+from KURUMIBOT.modules.connection import connected
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT.modules.helper_funcs.alternate import send_message
+from KURUMIBOT.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import split_message
-from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import extract_time
+from KURUMIBOT.modules.helper_funcs.misc import split_message
+from KURUMIBOT.modules.helper_funcs.string_handling import extract_time
 
-from DAISY_JOHNSON_BOT.modules.log_channel import loggable
-from DAISY_JOHNSON_BOT.modules.warns import warn
+from KURUMIBOT.modules.log_channel import loggable
+from KURUMIBOT.modules.warns import warn
 from telegram import (Chat, Message, ParseMode, Update, User, ChatPermissions)
 from telegram.error import BadRequest
 from telegram.ext import (CallbackContext, CommandHandler, Filters,

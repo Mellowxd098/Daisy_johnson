@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import DAISY_JOHNSON_BOT.modules.sql.blacklist_sql as sql
-from DAISY_JOHNSON_BOT import dispatcher, LOGGER
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
-from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_text
-from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import split_message
-from DAISY_JOHNSON_BOT.modules.log_channel import loggable
-from DAISY_JOHNSON_BOT.modules.warns import warn
-from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import extract_time
-from DAISY_JOHNSON_BOT.modules.connection import connected
+import KURUMIBOT.modules.sql.blacklist_sql as sql
+from KURUMIBOT import dispatcher, LOGGER
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from KURUMIBOT.modules.helper_funcs.extraction import extract_text
+from KURUMIBOT.modules.helper_funcs.misc import split_message
+from KURUMIBOT.modules.log_channel import loggable
+from KURUMIBOT.modules.warns import warn
+from KURUMIBOT.modules.helper_funcs.string_handling import extract_time
+from KURUMIBOT.modules.connection import connected
 
-from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message, typing_action
+from KURUMIBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 

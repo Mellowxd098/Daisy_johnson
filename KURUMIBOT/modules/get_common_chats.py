@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from DAISY_JOHNSON_BOT import OWNER_ID, dispatcher
-from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_user
-from DAISY_JOHNSON_BOT.modules.sql.users_sql import get_user_com_chats
+from KURUMIBOT import OWNER_ID, dispatcher
+from KURUMIBOT.modules.helper_funcs.extraction import extract_user
+from KURUMIBOT.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters

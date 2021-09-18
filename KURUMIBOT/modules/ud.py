@@ -1,6 +1,6 @@
 import requests
-from DAISY_JOHNSON_BOT import dispatcher
-from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT import dispatcher
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 

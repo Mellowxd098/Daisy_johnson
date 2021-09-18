@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from DAISY_JOHNSON_BOT.modules.sql import SESSION, BASE
+from KURUMIBOT.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
