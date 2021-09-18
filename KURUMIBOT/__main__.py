@@ -200,13 +200,13 @@ def start(update: Update, context: CallbackContext):
                              text="🚨 Support 🚨",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
+                             text="My sir",
+                             url="https://t.me/Mellowizxd")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             text="🔔 Updates of Daisy_johnson 🔔",
+                             url="https://t.me/daisy_channel01")
                     ], 
                      [
                          InlineKeyboardButton(
