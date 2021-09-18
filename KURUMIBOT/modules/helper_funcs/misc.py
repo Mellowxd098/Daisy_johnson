@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-from KURUMIBOT import NO_LOAD
+from DAISY_JOHNSON_BOT import NO_LOAD
 from telegram import MAX_MESSAGE_LENGTH, Bot, InlineKeyboardButton, ParseMode
 from telegram.error import TelegramError
 

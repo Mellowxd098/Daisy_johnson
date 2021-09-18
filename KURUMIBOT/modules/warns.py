@@ -3,21 +3,21 @@ import re
 from typing import Optional
 
 import telegram
-from KURUMIBOT import TIGERS, WOLVES, dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.chat_status import (bot_admin,
+from DAISY_JOHNSON_BOT import TIGERS, WOLVES, dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (bot_admin,
                                                            can_restrict,
                                                            is_user_admin,
                                                            user_admin,
                                                            user_admin_no_reply)
-from KURUMIBOT.modules.helper_funcs.extraction import (extract_text,
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import (extract_text,
                                                           extract_user,
                                                           extract_user_and_text)
-from KURUMIBOT.modules.helper_funcs.filters import CustomFilters
-from KURUMIBOT.modules.helper_funcs.misc import split_message
-from KURUMIBOT.modules.helper_funcs.string_handling import split_quotes
-from KURUMIBOT.modules.log_channel import loggable
-from KURUMIBOT.modules.sql import warns_sql as sql
+from DAISY_JOHNSON_BOT.modules.helper_funcs.filters import CustomFilters
+from DAISY_JOHNSON_BOT.modules.helper_funcs.misc import split_message
+from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import split_quotes
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
+from DAISY_JOHNSON_BOT.modules.sql import warns_sql as sql
 from telegram import (CallbackQuery, Chat, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, User)
 from telegram.error import BadRequest

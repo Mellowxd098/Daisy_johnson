@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/KURUMIBOT
-RUN git clone -b shiken https://github.com/Hirojazz/KURUMIBOT /root/KURUMIBOT
-WORKDIR /root/KURUMIBOT
+# Copy Python Requirements to /root/DAISY_JOHNSON_BOT
+RUN git clone -b shiken https://github.com/Hirojazz/DAISY_JOHNSON_BOT /root/DAISY_JOHNSON_BOT
+WORKDIR /root/DAISY_JOHNSON_BOT
 
-#Copy config file to /root/KURUMIBOT/KURUMIBOT
-COPY ./KURUMIBOT/sample_config.py ./KURUMIBOT/config.py* /root/KURUMIBOT/KURUMIBOT/
+#Copy config file to /root/DAISY_JOHNSON_BOT/DAISY_JOHNSON_BOT
+COPY ./DAISY_JOHNSON_BOT/sample_config.py ./DAISY_JOHNSON_BOT/config.py* /root/DAISY_JOHNSON_BOT/DAISY_JOHNSON_BOT/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","KURUMIBOT"]
+CMD ["python3","-m","DAISY_JOHNSON_BOT"]

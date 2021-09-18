@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from KURUMIBOT import StartTime, dispatcher
-from KURUMIBOT.modules.helper_funcs.chat_status import sudo_plus
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT import StartTime, dispatcher
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import sudo_plus
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",

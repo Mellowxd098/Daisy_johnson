@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import KURUMIBOT.modules.sql.locks_sql as sql
-from KURUMIBOT import dispatcher, DRAGONS, LOGGER
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.chat_status import (
+import DAISY_JOHNSON_BOT.modules.sql.locks_sql as sql
+from DAISY_JOHNSON_BOT import dispatcher, DRAGONS, LOGGER
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from KURUMIBOT.modules.log_channel import loggable
-from KURUMIBOT.modules.connection import connected
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
+from DAISY_JOHNSON_BOT.modules.connection import connected
 
-from KURUMIBOT.modules.helper_funcs.alternate import send_message, typing_action
+from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 

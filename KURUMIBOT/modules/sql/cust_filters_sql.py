@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from KURUMIBOT.modules.helper_funcs.msg_types import Types
-from KURUMIBOT.modules.sql import BASE, SESSION
+from DAISY_JOHNSON_BOT.modules.helper_funcs.msg_types import Types
+from DAISY_JOHNSON_BOT.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

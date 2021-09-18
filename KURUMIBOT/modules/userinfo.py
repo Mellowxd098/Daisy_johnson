@@ -14,17 +14,17 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from KURUMIBOT import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+from DAISY_JOHNSON_BOT import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           INFOPIC, dispatcher, sw)
-from KURUMIBOT.__main__ import STATS, TOKEN, USER_INFO
-import KURUMIBOT.modules.sql.userinfo_sql as sql
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.sql.global_bans_sql import is_user_gbanned
-from KURUMIBOT.modules.sql.afk_sql import is_afk, check_afk_status
-from KURUMIBOT.modules.sql.users_sql import get_user_num_chats
-from KURUMIBOT.modules.helper_funcs.chat_status import sudo_plus
-from KURUMIBOT.modules.helper_funcs.extraction import extract_user
-from KURUMIBOT import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
+from DAISY_JOHNSON_BOT.__main__ import STATS, TOKEN, USER_INFO
+import DAISY_JOHNSON_BOT.modules.sql.userinfo_sql as sql
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.sql.global_bans_sql import is_user_gbanned
+from DAISY_JOHNSON_BOT.modules.sql.afk_sql import is_afk, check_afk_status
+from DAISY_JOHNSON_BOT.modules.sql.users_sql import get_user_num_chats
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import sudo_plus
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_user
+from DAISY_JOHNSON_BOT import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):

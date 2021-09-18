@@ -1,8 +1,8 @@
 from random import randint
 
 import requests as r
-from KURUMIBOT import SUPPORT_CHAT, WALL_API, dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT import SUPPORT_CHAT, WALL_API, dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 

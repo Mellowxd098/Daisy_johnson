@@ -1,5 +1,5 @@
-from KURUMIBOT.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from KURUMIBOT import DRAGONS
+from DAISY_JOHNSON_BOT.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from DAISY_JOHNSON_BOT import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 

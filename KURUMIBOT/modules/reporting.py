@@ -1,10 +1,10 @@
 import html
 
-from KURUMIBOT import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
-from KURUMIBOT.modules.helper_funcs.chat_status import (user_admin,
+from DAISY_JOHNSON_BOT import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from KURUMIBOT.modules.log_channel import loggable
-from KURUMIBOT.modules.sql import reporting_sql as sql
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
+from DAISY_JOHNSON_BOT.modules.sql import reporting_sql as sql
 from telegram import (Chat, InlineKeyboardButton, InlineKeyboardMarkup,
                       ParseMode, Update)
 from telegram.error import BadRequest, Unauthorized

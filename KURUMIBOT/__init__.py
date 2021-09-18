@@ -107,7 +107,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from KURUMIBOT.config import Development as Config
+    from DAISY_JOHNSON_BOT.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:
@@ -195,7 +195,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from KURUMIBOT.modules.helper_funcs.handlers import (CustomCommandHandler,
+from DAISY_JOHNSON_BOT.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
 

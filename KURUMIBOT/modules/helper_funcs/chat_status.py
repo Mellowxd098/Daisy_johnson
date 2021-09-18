@@ -2,7 +2,7 @@ from time import perf_counter
 from functools import wraps
 from cachetools import TTLCache
 from threading import RLock
-from KURUMIBOT import (
+from DAISY_JOHNSON_BOT import (
     DEL_CMDS,
     DEV_USERS,
     DRAGONS,
@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from KURUMIBOT.modules import connection
+from DAISY_JOHNSON_BOT.modules import connection
 
 connected = connection.connected

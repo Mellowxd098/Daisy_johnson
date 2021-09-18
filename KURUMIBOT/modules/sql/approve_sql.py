@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Integer, func, distinct
 
-from KURUMIBOT.modules.sql import BASE, SESSION
+from DAISY_JOHNSON_BOT.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):

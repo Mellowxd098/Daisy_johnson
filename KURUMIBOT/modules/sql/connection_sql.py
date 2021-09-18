@@ -4,7 +4,7 @@ from typing import Union
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer
 
-from KURUMIBOT.modules.sql import SESSION, BASE
+from DAISY_JOHNSON_BOT.modules.sql import SESSION, BASE
 
 
 class ChatAccessConnectionSettings(BASE):

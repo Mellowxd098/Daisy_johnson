@@ -1,6 +1,6 @@
 from enum import IntEnum, unique
 
-from KURUMIBOT.modules.helper_funcs.string_handling import \
+from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import \
     button_markdown_parser
 from telegram import Message
 

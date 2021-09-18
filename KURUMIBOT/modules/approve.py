@@ -1,11 +1,11 @@
 import html
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT import dispatcher, DRAGONS
-from KURUMIBOT.modules.helper_funcs.extraction import extract_user
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT import dispatcher, DRAGONS
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async, CallbackQueryHandler
-import KURUMIBOT.modules.sql.approve_sql as sql
-from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
-from KURUMIBOT.modules.log_channel import loggable
+import DAISY_JOHNSON_BOT.modules.sql.approve_sql as sql
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest

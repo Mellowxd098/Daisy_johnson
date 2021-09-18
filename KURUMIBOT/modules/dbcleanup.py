@@ -1,9 +1,9 @@
 from time import sleep
 
-import KURUMIBOT.modules.sql.global_bans_sql as gban_sql
-import KURUMIBOT.modules.sql.users_sql as user_sql
-from KURUMIBOT import DEV_USERS, OWNER_ID, dispatcher
-from KURUMIBOT.modules.helper_funcs.chat_status import dev_plus
+import DAISY_JOHNSON_BOT.modules.sql.global_bans_sql as gban_sql
+import DAISY_JOHNSON_BOT.modules.sql.users_sql as user_sql
+from DAISY_JOHNSON_BOT import DEV_USERS, OWNER_ID, dispatcher
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,

@@ -5,8 +5,8 @@ from telethon import events
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from KURUMIBOT import telethn, dispatcher
-from KURUMIBOT.modules.helper_funcs.chat_status import dev_plus
+from DAISY_JOHNSON_BOT import telethn, dispatcher
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 

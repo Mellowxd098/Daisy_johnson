@@ -5,9 +5,9 @@ from tswift import Song
 from telegram import Bot, Update, Message, Chat
 from telegram.ext import CallbackContext, run_async
 
-from KURUMIBOT import dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.alternate import typing_action
+from DAISY_JOHNSON_BOT import dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import typing_action
 
 
 @run_async

@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import KURUMIBOT.modules.sql.notes_sql as sql
-from KURUMIBOT import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
-from KURUMIBOT.__main__ import DATA_IMPORT
-from KURUMIBOT.modules.helper_funcs.chat_status import user_admin
-from KURUMIBOT.modules.helper_funcs.alternate import typing_action
+import DAISY_JOHNSON_BOT.modules.sql.notes_sql as sql
+from DAISY_JOHNSON_BOT import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
+from DAISY_JOHNSON_BOT.__main__ import DATA_IMPORT
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import user_admin
+from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import typing_action
 
-# from KURUMIBOT.modules.rules import get_rules
-import KURUMIBOT.modules.sql.rules_sql as rulessql
+# from DAISY_JOHNSON_BOT.modules.rules import get_rules
+import DAISY_JOHNSON_BOT.modules.sql.rules_sql as rulessql
 
-# from KURUMIBOT.modules.sql import warns_sql as warnssql
-import KURUMIBOT.modules.sql.blacklist_sql as blacklistsql
-from KURUMIBOT.modules.sql import disable_sql as disabledsql
+# from DAISY_JOHNSON_BOT.modules.sql import warns_sql as warnssql
+import DAISY_JOHNSON_BOT.modules.sql.blacklist_sql as blacklistsql
+from DAISY_JOHNSON_BOT.modules.sql import disable_sql as disabledsql
 
-# from KURUMIBOT.modules.sql import cust_filters_sql as filtersql
-# import KURUMIBOT.modules.sql.welcome_sql as welcsql
-import KURUMIBOT.modules.sql.locks_sql as locksql
-from KURUMIBOT.modules.connection import connected
+# from DAISY_JOHNSON_BOT.modules.sql import cust_filters_sql as filtersql
+# import DAISY_JOHNSON_BOT.modules.sql.welcome_sql as welcsql
+import DAISY_JOHNSON_BOT.modules.sql.locks_sql as locksql
+from DAISY_JOHNSON_BOT.modules.connection import connected
 
 
 @run_async

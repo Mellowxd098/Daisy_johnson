@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from KURUMIBOT import LOGGER, dispatcher
-from KURUMIBOT.modules.disable import DisableAbleMessageHandler
-from KURUMIBOT.modules.helper_funcs.regex_helper import (infinite_loop_check)
+from DAISY_JOHNSON_BOT import LOGGER, dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleMessageHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.regex_helper import (infinite_loop_check)
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 

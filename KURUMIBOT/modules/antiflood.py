@@ -3,19 +3,19 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from KURUMIBOT import TIGERS, WOLVES, dispatcher
-from KURUMIBOT.modules.helper_funcs.chat_status import (bot_admin,
+from DAISY_JOHNSON_BOT import TIGERS, WOLVES, dispatcher
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (bot_admin,
                                                            is_user_admin,
                                                            user_admin,
                                                            user_admin_no_reply)
-from KURUMIBOT.modules.log_channel import loggable
-from KURUMIBOT.modules.sql import antiflood_sql as sql
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
+from DAISY_JOHNSON_BOT.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html, escape_markdown
-from KURUMIBOT.modules.helper_funcs.string_handling import extract_time
-from KURUMIBOT.modules.connection import connected
-from KURUMIBOT.modules.helper_funcs.alternate import send_message
+from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import extract_time
+from DAISY_JOHNSON_BOT.modules.connection import connected
+from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message
 FLOOD_GROUP = 3
 
 

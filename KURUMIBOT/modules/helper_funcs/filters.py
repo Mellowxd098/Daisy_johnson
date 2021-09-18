@@ -1,4 +1,4 @@
-from KURUMIBOT import DEV_USERS, DRAGONS, DEMONS
+from DAISY_JOHNSON_BOT import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 

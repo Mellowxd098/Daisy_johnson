@@ -5,18 +5,18 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from KURUMIBOT import DRAGONS, dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.chat_status import (bot_admin, can_pin,
+from DAISY_JOHNSON_BOT import DRAGONS, dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (bot_admin, can_pin,
                                                            can_promote,
                                                            connection_status,
                                                            user_admin,
                                                            ADMIN_CACHE)
 
-from KURUMIBOT.modules.helper_funcs.extraction import (extract_user,
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from KURUMIBOT.modules.log_channel import loggable
-from KURUMIBOT.modules.helper_funcs.alternate import send_message
+from DAISY_JOHNSON_BOT.modules.log_channel import loggable
+from DAISY_JOHNSON_BOT.modules.helper_funcs.alternate import send_message
 
 
 @run_async

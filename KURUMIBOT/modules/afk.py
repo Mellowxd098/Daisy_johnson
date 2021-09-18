@@ -1,10 +1,10 @@
 import random, html
 
-from KURUMIBOT import dispatcher
-from KURUMIBOT.modules.disable import (DisableAbleCommandHandler,
+from DAISY_JOHNSON_BOT import dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import (DisableAbleCommandHandler,
                                           DisableAbleMessageHandler)
-from KURUMIBOT.modules.sql import afk_sql as sql
-from KURUMIBOT.modules.users import get_user_id
+from DAISY_JOHNSON_BOT.modules.sql import afk_sql as sql
+from DAISY_JOHNSON_BOT.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async

@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from KURUMIBOT import TIME_API_KEY, dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT import TIME_API_KEY, dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 

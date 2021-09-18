@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from KURUMIBOT import LOGGER
-from KURUMIBOT.modules.users import get_user_id
+from DAISY_JOHNSON_BOT import LOGGER
+from DAISY_JOHNSON_BOT.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 

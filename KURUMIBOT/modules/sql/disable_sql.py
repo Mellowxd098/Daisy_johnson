@@ -1,6 +1,6 @@
 import threading
 
-from KURUMIBOT.modules.sql import BASE, SESSION
+from DAISY_JOHNSON_BOT.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String, UnicodeText, distinct, func
 
 

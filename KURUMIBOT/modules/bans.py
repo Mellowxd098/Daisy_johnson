@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from KURUMIBOT import (
+from DAISY_JOHNSON_BOT import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -15,8 +15,8 @@ from KURUMIBOT import (
     WOLVES,
     dispatcher,
 )
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.chat_status import (
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -27,9 +27,9 @@ from KURUMIBOT.modules.helper_funcs.chat_status import (
     user_can_ban,
     can_delete,
 )
-from KURUMIBOT.modules.helper_funcs.extraction import extract_user_and_text
-from KURUMIBOT.modules.helper_funcs.string_handling import extract_time
-from KURUMIBOT.modules.log_channel import gloggable, loggable
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_user_and_text
+from DAISY_JOHNSON_BOT.modules.helper_funcs.string_handling import extract_time
+from DAISY_JOHNSON_BOT.modules.log_channel import gloggable, loggable
 
 
 @run_async

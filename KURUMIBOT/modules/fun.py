@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import KURUMIBOT.modules.fun_strings as fun_strings
-from KURUMIBOT import dispatcher
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
-from KURUMIBOT.modules.helper_funcs.chat_status import is_user_admin
-from KURUMIBOT.modules.helper_funcs.extraction import extract_user
+import DAISY_JOHNSON_BOT.modules.fun_strings as fun_strings
+from DAISY_JOHNSON_BOT import dispatcher
+from DAISY_JOHNSON_BOT.modules.disable import DisableAbleCommandHandler
+from DAISY_JOHNSON_BOT.modules.helper_funcs.chat_status import is_user_admin
+from DAISY_JOHNSON_BOT.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
