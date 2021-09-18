@@ -2,11 +2,11 @@
 ![Daisy_johnson](https://telegra.ph/file/e86cbb3e4a413f36c5aae.jpg)
 
 
-A modular Telegram Group Management bot made using [Daisy_johnson Chan](https://t.me/Kurumi_0bot) as base repo.
+A modular Telegram Group Management bot made using [Daisy_johnson](https://t.me/Kurumi_0bot) as base repo.
 
-Can be found on telegram as [Daisy_johnson Chan](https://t.me/Kurumi_0bot).
+Can be found on telegram as [Daisy_johnson](https://t.me/Kurumi_0bot).
 
-The Support group can be reached out to at [Daisy_johnson Support](https://t.me/kurumisupport), where you can ask for help about [Daisy_johnson Chan](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Daisy_johnson Support](https://t.me/kurumisupport), where you can ask for help about [Daisy_johnson](https://t.me/Kurumi_0bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
