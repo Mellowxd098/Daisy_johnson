@@ -1,5 +1,4 @@
 # Daisy johnson
-![Daisy_johnson](https://telegra.ph/file/e86cbb3e4a413f36c5aae.jpg)
 
 
 A modular Telegram Group Management bot made using [Daisy_johnson](https://t.me/Kurumi_0bot) as base repo.
